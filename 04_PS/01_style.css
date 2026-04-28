@@ -1,0 +1,21 @@
+body{
+background:lightblue;
+text-align:center;
+font-family:Arial;
+}
+
+header{
+background:blue;
+color:white;
+padding:20px;
+}
+
+nav a{
+margin:15px;
+color:white;
+text-decoration:none;
+}
+
+footer{
+margin-top:30px;
+}
