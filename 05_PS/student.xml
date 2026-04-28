@@ -1,0 +1,52 @@
+<!--
+Problem Statement 5: Convert XML Data to HTML using XSLT with Computed Result and Filtering 
+Develop an XSLT stylesheet to transform XML data into a well-formatted HTML page. 
+Requirements: 
+Create an XML file containing records of at least 4 students Each student record should include: 
+•	Name 
+•	Roll Number 
+•	Marks / Percentage 
+Do NOT store the “Result (Pass/Fail)” in XML. It must be calculated dynamically. 
+XSLT Design: 
+Design an XSLT file to: 
+Extract student data from the XML file 
+
+
+
+
+-->
+
+
+
+
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="student.xsl"?>
+
+<students>
+
+<student>
+<name>Amit</name>
+<roll>1</roll>
+<marks>75</marks>
+</student>
+
+<student>
+<name>Rahul</name>
+<roll>2</roll>
+<marks>35</marks>
+</student>
+
+<student>
+<name>Neha</name>
+<roll>3</roll>
+<marks>80</marks>
+</student>
+
+<student>
+<name>Pooja</name>
+<roll>4</roll>
+<marks>30</marks>
+</student>
+
+</students>
